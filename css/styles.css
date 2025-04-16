@@ -49,6 +49,37 @@ a:hover {
     text-decoration: underline;
 }
 
+blockquote {
+    font-style: italic;
+}
+
+blockquote:before {
+    content: '“';
+    float:left;
+    font-size: 3em;
+    margin-left: -0.5em;
+    margin-top: -0.5em;
+}
+
+blockquote:after {
+    content: '”';
+    font-size: 3em;
+    margin-top: -1.5em;
+    float:right;
+}
+
+hr {
+    margin-bottom: 3em;
+    margin-top: 2em;
+    margin-right: 2em;
+    margin-left: 2em;
+    opacity: 0.2;
+}
+
+.footer-blockquote {
+    text-align: right;
+}
+
 .cta {
     text-align: center;
     margin-top: 20px;
@@ -69,7 +100,7 @@ a:hover {
     background: #808;
 }
 
-footer {
+.footer-bottom {
     text-align: center;
     padding: 20px;
     font-size: 0.9rem;
